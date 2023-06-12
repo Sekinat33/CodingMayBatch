@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASSWORK</title>
+    <style>
+        * {
+         box-sizing:border-box;
+         padding: 0;
+         margin: 0;
+         font-family: sans-serif;
+        }
+        .container{
+            width:100%;
+            height: 625px;
+            background-size:100% ;
+            animation-name:contact;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes contact{
+            0% {
+                background: url("earth.png");
+                }
+            33% {
+                background: url("earth-view.jpg");
+            }
+            67% {
+                background: url("water.jpg");
+            }
+            100% {
+                background: url("/earth.png");
+            }
+     }
+        
+     .slide-div{
+        width: 40%;
+        position: relative;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        top: 200px;
+        height: 420px;
+        overflow: hidden;
+        border: 5px solid white;
+      }
+
+      .items-div{
+        /* color: white; */
+        position: absolute;
+        text-align: center;
+        margin-left: 60px;
+      }
+      h2{
+        font-size: 1.8rem;
+        margin-bottom: 1.7rem;
+        font-weight: bold;
+      }
+      button{
+        font-family: serif;
+        font-weight: bold;
+      }
+      .welcome-div{
+        animation-name: slide-one;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes slide-one {
+            0%{
+                margin-top: 0px;
+                }
+            33%{
+                margin-top: 1000px;
+            }
+            67%{
+                margin-top: 1000px;
+            }
+            100%{
+                margin-top: 0px;
+            }
+     }
+     .true-div{
+        top: 450px;
+        animation-name: slide-two;
+        animation-iteration-count: infinite;
+        animation-duration: 20s;
+     }
+     @keyframes slide-two {
+            0%{
+                margin-top: 1000px;
+                }
+            33%{
+                margin-top: 0px;
+                top: 0px;
+            }
+            67%{
+                margin-top: 1000px;
+            }
+            100%{
+                margin-top: 1000px;
+            }
+     }
+     .trial-div{
+        top:900px;
+        animation-name:slide-three ;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+     }
+     @keyframes slide-three {
+            0%{
+                margin-top: 1000px;
+                }
+            33%{
+                margin-top: 1000px;
+            }
+            67%{
+                margin-top: 0px;
+                top:0px;
+            }
+            100%{
+                margin-top: 1000px;
+            }
+     }
+     button{
+        background-color: blue;
+        color: white;
+        border-radius: 5rem;
+        border: none;
+        padding: 12px 24px;
+        font-size: 1.2rem;
+        font-weight: 700;
+        text-transform: uppercase;
+     }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="slide-div">
+        <div class="items-div welcome-div">
+            <h2 class="welcome-h2">Welcome to Ebuka's Page</h2>
+            <button class="welcome-button">Get Started</button>
+        </div>
+        <div class="items-div true-div">
+            <h2 class="true-h2">Only those who apply <br>priciples of Design <br>are true Designers.</h2>
+             <button class="true-button">Get Started </button>
+        </div>
+         <div class="items-div trial-div">
+            <h2 class="trial-h2">A trial will convince you</h2>
+            <button class="trial-button">Get Started </button>
+         </div>
+    </div>
+   </div> 
+</body>
+</html>
