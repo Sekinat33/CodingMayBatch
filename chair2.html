@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+        body{
+            background: rgb(156, 152, 152);
+            width: 700px;
+        }
+        main{
+            background:url(project.jpg);
+            width: 800px;
+            height: 600px;
+            background-repeat:repeat ;
+            margin-left: 300px;
+            margin-right: 300px;
+            margin-top: 30px;
+        }
+        ul{
+            list-style-type: none;
+            display: flex;
+        }
+        li{
+            margin-top: 20px;
+        }
+        a{
+            text-decoration: none;
+            padding-left: 40px;
+            color: white;
+            font-weight: bold;
+        }
+        .products{
+            background: white;
+            color: black;
+            font-weight: 400;
+            border-radius: 7px;
+            padding: 5px;
+        margin-left: 50px;
+        }
+        .less{
+            margin-top: 30px;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 30px;
+            color: white;
+            left: 450px;
+            position: absolute;
+        }
+        .more{
+            background-color: black;
+            position: absolute;
+            top: 538px;
+            height: 150px;
+            width: 800px;
+        }
+        .our{
+            color: white;
+            padding: 20px;
+            font-weight: bold;
+        }
+        .hoe{
+            color: white;
+            padding: 30px;
+            font-weight: bold;
+            position:absolute;
+            top: 0px;
+            left: 150px;
+        }
+        .hip{
+            color: white;
+            padding: 30px;
+            position:absolute;
+            top: 19px;
+            left: 150px;
+            opacity: 0.7;
+        }
+        .him{
+            position:absolute;
+            top: 130px;
+            left: 180px;
+            color: white;
+            font-weight: bold;
+        }
+        .mop{
+        color: white;
+            padding: 30px;
+            font-weight: bold;
+            position:absolute;
+            top: 0px;
+            left: 350px;
+        }
+        .map{
+            color: white;
+            padding: 30px;
+            /* font-weight: bold; */
+            position:absolute;
+            top: 19px;
+            left: 350px;
+            opacity: 0.7;
+        }
+        .mat{
+            color: white;
+            padding: 30px;
+            font-weight: bold;
+            position:absolute;
+            top: 90px;
+            left: 350px;
+        }
+.tap{
+    color: white;
+            padding: 30px;
+            font-weight: bold;
+            position:absolute;
+            top: 0px;
+            left: 550px;
+        }
+.top{
+    color: white;
+            padding: 30px;
+            /* font-weight: bold; */
+            position:absolute;
+            top: 20px;
+            left: 550px;
+            opacity: 0.7;
+        }
+.tip{
+    color: white;
+            padding: 30px;
+            font-weight: bold;
+            position:absolute;
+            top: 90px;
+            left: 550px;
+        }
+        .owl{
+            color: black;
+            margin: 0px;
+            position: absolute;
+            right: 0px;
+            top: 0px;
+        }
+.pool{
+font-weight: bold;
+font-size: 30px;
+position: absolute;
+top: 700px;
+left: 500px;
+}
+.light{
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    color: black;
+font-weight: 400;
+}
+.lit{
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    color: black;
+font-weight: bold;
+text-decoration: underline;
+
+}
+.list{
+    position: absolute;
+    top: 0px;
+    left: 160px;
+    color: black;
+font-weight: 400;
+}
+.lig{
+    position: absolute;
+    top: 0px;
+    left: 220px;
+    color: black;
+font-weight: 400;
+}
+.lot{
+    position: absolute;
+    top: 0px;
+    left: 280px;
+    color: black;
+font-weight: 400;
+}
+.lie{
+    position: absolute;
+    top: 0px;
+    left:360px;
+    color: black;
+font-weight: 400;
+}
+.left{
+    position: absolute;
+    top: 0px;
+    left: 430px;
+    color: black;
+font-weight: 400;
+}
+.lift{
+    position: absolute;
+    top: 0px;
+    left: 490px;
+    color: black;
+font-weight: 400;
+}
+.power{
+    background-color: rgb(187, 181, 181);
+    position: absolute;
+    top: 750px;
+    width: 600px;
+    border-radius: 15px;
+    margin-left: 350px;
+}
+.one{
+    width: 200px;
+    height: 300px;
+    /* margin: 30px; */
+    position: absolute;
+    top: 800px;
+    left: 100px;
+    border-radius: 30px;
+}
+.two{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 800px;
+    left: 400px;
+    border-radius: 30px;
+}
+.three{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 800px;
+    left: 700px;
+    border-radius: 30px;
+}
+.four{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 800px;
+    left:1000px;
+    border-radius: 30px;
+}
+.five{
+    color: black;
+    font-weight: bolder;
+    margin: 30px;
+    position: absolute;
+    top: 1300px;
+    left: 50px;
+}
+.six{
+    color: black;
+    position: absolute;
+    top: 1350px;
+    left: 80px;
+}
+.seven{
+    color: white;
+    background-color: black;
+    position: absolute;
+    top: 1450px;
+    left: 80px;
+    border-radius: 7px;
+    padding: 15px;
+}
+.eight{
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    top: 1200px;
+    left: 350px;
+    background-color:lightblue;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    height: 100px;
+    width: 170px;
+    padding: 20px;
+}
+.nine{
+    position: absolute;
+    top: 1220px;
+    left: 350px;
+    padding: 20px;
+}
+.ten{
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    top: 1300px;
+    left: 600px;
+    background-color:lightblue;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    height: 100px;
+    width: 170px;
+    padding: 20px;
+}
+.eleven{
+    position: absolute;
+    top: 1320px;
+    left: 600px;
+    padding: 20px;
+}
+.twelve{
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    top: 1400px;
+    left: 300px;
+    background-color:lightblue;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    height: 100px;
+    width: 170px;
+    padding: 20px;
+}
+.thirteen{
+    position: absolute;
+    top: 1420px;
+    left: 300px;
+    padding: 20px;
+}
+.fourteen{
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    top: 1500px;
+    left: 570px;
+    background-color:lightblue;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    height: 100px;
+    width: 170px;
+    padding: 20px;
+}
+.fifteen{
+    position: absolute;
+    top: 1520px;
+    left: 570px;
+    padding: 20px;
+}
+.play{
+    top: 820px;
+    left: 120px;
+    position: absolute;
+    font-weight: bold;
+}
+span{
+    color: orange;
+}
+.lay{
+    top: 816px;
+    left: 420px;
+    position: absolute;
+    font-weight: bold;
+}
+.pay{
+    top: 820px;
+    left: 720px;
+    position: absolute;
+    font-weight: bold;
+}
+.may{
+    top: 818px;
+    left: 1020px;
+    position: absolute;
+    font-weight: bold;
+}
+.wall{
+    position: absolute;
+    top: 1700px;
+    left: 100px;
+    font-weight: bolder;
+    font-size:30px ;
+    font-family: sans-serif;
+    color: black;
+}
+.hall{
+    position: absolute;
+    top: 1800px;
+    left: 100px;
+    font-family: sans-serif;
+    color: black;
+}
+.pull{
+    position: absolute;
+    top: 1900px;
+    left: 100px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+    padding: 12px;
+}
+.mall{
+    position: absolute;
+    top: 2000px;
+    left: 500px;
+    
+}
+.sixteen{
+    position: absolute;
+    top: 1750px;
+    left: 700px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.all{
+    left: 850px;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.seventeen{
+    position: absolute;
+    top: 1750px;
+    left: 900px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.eighteen{
+    position: absolute;
+    top: 1750px;
+    left: 1100px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h3{
+    color: rgb(55, 55, 233);
+    font-size: 30px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+    </style>
+    <div class="owl">DESIGN BY <br> ANAGWU PRECIOUS</div>
+    <h3>FONEC</h3>
+</head>
+<body>
+    <main>
+        <ul>
+            <li>
+                <a href="Home">Home</a>
+            </li>
+            <li>
+                <a href="About">About</a>
+            </li>
+            <li>
+                <a href="Services">Services</a>
+            </li>
+            <li>
+                <a href="Resources">Resources</a>
+            </li>
+            <li>
+                <a href="Others">Others</a>
+            </li>
+            <li>
+                <a href="Following">Following</a>
+            </li>
+            <li>
+                <a href="Products" class="products">Products</a>
+            </li>
+        </ul>
+        <div class="less">Your Best Online Furniture <br> & Interior Design Services</div>
+        <div class="more">
+            <div class="our">Our Range <br> Of Products</div>
+            <div class="hoe">Home Furniture </div> 
+            <div class="hip">Lorem ipsum <br> dolor,sit amet <br> consectetur<br> adipisicing.</div>
+            <div class="him">See more ......</div>
+
+            <div class="mop">Office Furniture </div> 
+            <div class="map">Lorem ipsum <br> dolor,sit amet <br> consectetur<br> adipisicing.</div>
+            <div class="mat">See more ......</div>
+
+            <div class="tap">School Furniture </div> 
+            <div class="top">Lorem ipsum <br> dolor,sit amet <br> consectetur<br> adipisicing.</div>
+            <div class="tip">See more ......</div>
+
+        </div>
+    </main>
+    <div class="pool">Best  Selling Categories.</div>
+    <ul class="power">
+        <li>
+            <a href="Beds" class="light">Beds</a>
+        </li>
+        <li>
+            <a href="Chairs" class="lit">Chairs</a>
+        </li>
+        <li>
+            <a href="Tables"class="list">Tables</a>
+        </li>
+        <li>
+            <a href="Sofa"class="lig">Sofa</a>
+        </li>
+        <li>
+            <a href="Dinning Sets"class="lot">Dinning </a>
+        </li>
+        <li>
+            <a href="Cabinets" class="lie">Cabinets</a>
+        </li>
+        <li>
+            <a href="Shelves" class="left">Shelves</a>
+        </li>
+        <li>
+            <a href="Wardrobes" class="lift">Wardrobes</a>
+        </li>
+    </ul>
+    <img src="chair-1.jpg" alt="" class="one">
+    <img src="chair-2.jpg" alt="" class="two">
+    <img src="chair-3.jpg" alt="" class="three">
+    <img src="chair-4.jpg" alt=""class="four">
+
+    <div class="play"> <span class="kill">Black stool </span> <br> #15,000 </div>
+    <div class="lay"> <span class="kill">Grey Comfort</span> <br> #25,000 </div>
+    <div class="pay"> <span class="kill">Green Bossy</span> <br> #28,000 </div>
+    <div class="may"> <span class="kill"> Royal Cushion</span> <br> #28,000 </div>
+
+
+    <div class="five">Our Services</div>
+    <div class="six">Lorem ipsum dolor <br> sit  amet consectetur<br> adipisicing elit.<br> Nihil, sint Lorem  <br>ipsum dolor sit.</div>
+     <a href="Order Now" class="seven">Order Now</a>
+       <div class="eight">Office Furnitures</div>
+       <div class="nine">Lorem ipsum dolor <br> sit amet, consectetur  <br>adipisicing elit. <br> Modi, explicabo.</div>
+       <div class="ten">School Furnitures</div>
+       <div class="eleven">Lorem ipsum dolor <br> sit amet, consectetur  <br>adipisicing elit. <br> Modi, explicabo.</div>
+       <div class="twelve">Home Furnitures</div>
+       <div class="thirteen">Lorem ipsum dolor <br> sit amet, consectetur  <br>adipisicing elit. <br> Modi, explicabo.</div>
+       <div class="fourteen">Hospital Furnitures</div>
+       <div class="fifteen">Lorem ipsum dolor <br> sit amet, consectetur  <br>adipisicing elit. <br> Modi, explicabo.</div>
+
+<div class="wall">We Provide You With The <br>Best Experience </div>
+<div class="hall">Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit. Ipsam aliquid provident<br> sunt temporibus. Voluptates illo sequi<br> laudantium quidem beatae accusantium!</div>
+   <a href="Search more" class="pull">Search more</a>
+
+   <img src="chair-5.jpg" alt="" class="mall">
+   <div class="sixteen">Years of <br>Experience<br><br><br><span class="all">10+</span></div>
+   <div class="seventeen">Qualification<br><br><br><br><span class="all">18+</span></div>
+   <div class="eighteen">Always at Your<br> Service<br><br><br><span class="all">365+</span></div>
+</body>
+</html>
