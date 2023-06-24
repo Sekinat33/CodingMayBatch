@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        <input type="number" class="inputOne">
+        <span class="spanOne">+</span>
+        <input type="number" class="inputTwo">
+        <span class="spanTwo">=</span>
+
+        <span class="spanThree"></span>
+    </div>
+    <button class="btnOne">Calculate</button>
+    <nav class="fox">
+        <input type="number" class="inputThree">
+        <span class="spanFour">-</span>
+        <input type="number" class="inputFour">
+        <span class="spanFive">=</span>
+
+        <span class="spanSix"></span>
+    </nav>
+    <button class="btnTwo">Calculate</button>
+
+    <main class="lot">
+        <input type="number" class="inputFive">
+        <span class="spanSeven">*</span>
+        <input type="number" class="inputSix">
+        <span class="spanEight">=</span>
+
+        <span class="spanNine"></span>
+    </main>
+    <button class="btnThree">Calculate</button>
+
+    <section class="rot">
+        <input type="number" class="inputSeven">
+        <span class="spanTen">/</span>
+        <input type="number" class="inputEight">
+        <span class="spanEleven">=</span>
+
+        <span class="spanTwelve"></span>
+    </section>
+    <button class="btnFour">Calculate</button>
+    <script>
+        let div = document.querySelector(".box")
+        let input1 = document.querySelector(".inputOne")
+        let input2 = document.querySelector(".inputTwo")
+        let span1 = document.querySelector(".spanOne")
+        let span2 = document.querySelector(".spanTwo")
+        let span3 = document.querySelector(".spanThree")
+        let btn1 = document.querySelector(".btnOne")
+        
+
+        btn1.addEventListener("click",
+        function Calculate(){
+        console.log(input1.value)
+        console.log(input2.value)
+        let result = parseInt(input1.value) + parseInt(input2.value)
+        span3.innerHTML = result
+        console.log(result)
+        })
+</script>
+<script>
+    let nav = document.querySelector(".fox")
+    let input3 = document.querySelector(".inputThree")
+    let input4 = document.querySelector(".inputFour")
+    let span4 = document.querySelector(".spanFour")
+    let span5 = document.querySelector(".spanFive")
+    let span6 = document.querySelector(".spanSix")
+    let btn2 = document.querySelector(".btnTwo")
+    
+
+    btn2.addEventListener("click",
+    function Calculate(){
+    console.log(input3.value)
+    console.log(input4.value)
+    let result = parseInt(input3.value) - parseInt(input4.value)
+    span6.innerHTML = result
+    console.log(result)
+    })
+</script>
+<script>
+    let main = document.querySelector(".lot")
+    let input5 = document.querySelector(".inputFive")
+    let input6 = document.querySelector(".inputSix")
+    let span7 = document.querySelector(".spanSeven")
+    let span8 = document.querySelector(".spanEight")
+    let span9 = document.querySelector(".spanNine")
+    let btn3 = document.querySelector(".btnThree")
+    
+
+    btn3.addEventListener("click",
+    function Calculate(){
+    console.log(input5.value)
+    console.log(input6.value)
+    let result = parseInt(input5.value) * parseInt(input6.value)
+    span9.innerHTML = result
+    console.log(result)
+    })
+</script>
+<script>
+    let section = document.querySelector(".rot")
+    let input7 = document.querySelector(".inputSeven")
+    let input8 = document.querySelector(".inputEight")
+    let span10 = document.querySelector(".spanTen")
+    let span11= document.querySelector(".spanEleven")
+    let span12= document.querySelector(".spanTwelve")
+    let btn4 = document.querySelector(".btnFour")
+    
+
+    btn4.addEventListener("click",
+    function Calculate(){
+    console.log(input7.value)
+    console.log(input8.value)
+    let result = parseInt(input7.value) / parseInt(input8.value)
+    span12.innerHTML = result
+    console.log(result)
+    })
+</script>
+</body>
+</html>
